@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background: url("../img/shubham-dhage-Vo1FcbxWN2Q-unsplash.jpg") center / cover no-repeat ;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.nav {
+    font-size: 27px;
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+}
+

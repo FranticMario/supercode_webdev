@@ -1,0 +1,11 @@
+.section__one {
+    background-color: linen;
+}
+
+.section__one-title {
+    background-color: lightblue;
+}
+
+.article__one {
+    background: center url("./random.jpg");
+}

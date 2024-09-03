@@ -1,0 +1,40 @@
+.einzeln__list {
+    font-size:  0.8em;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+.dog li{
+    list-style: none;
+}
+
+.dog li::before{
+    content: "\1F415"
+}
+
+.cat li::before {
+    content: "\1F408"
+}
+
+.parrot li::before {
+    content: "\1F99C"
+}
+
+.snake li::before {
+    content: "\1F40D"
+}
+.lizzard li::before {
+    content: "\1F98E"
+}
+
+
+.pets {
+    border: 2px solid;
+    font-size: 0.8rem;
+}

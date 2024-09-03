@@ -1,0 +1,75 @@
+body {
+    font-size: 17px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+li {
+    list-style: none;
+    position: relative;
+
+}
+
+
+
+li:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    width: 15px; 
+    height: 15px; 
+    background-image: url("../img/gym.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.kreuz::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url("../img/no.png");
+    background-size: cover;
+    background-position: center;
+    left: -11%;
+}
+
+
+.complete::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url("../img/check.png");
+    background-size: cover;
+    background-position: center;
+    left: -11%;
+}
+
+
+.arbeit::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    background-image: url("../img/doing.png");
+    background-size: cover;
+    background-position: center;
+
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+
+.arbeit {
+    background-color: blue;
+}
+

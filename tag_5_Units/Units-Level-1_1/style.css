@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bild__1 {
+    width: 200px;
+}
+
+.bild__2 {
+    width: 25%
+}
+
+.bild__3 {
+    width: 20em;
+}
+
+.bild__4 {
+    width: 40rem;
+}
+
+.bild__5 {
+    width: 35vw;
+}
+.bild__6 {
+    width: 75vh;
+}
+
+

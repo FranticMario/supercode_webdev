@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section {
+    height: 100vh;
+    background: url("./wallpaper_lost_in_random_01_1920x1080.jpg") no-repeat center;
+    
+}

@@ -1,0 +1,63 @@
+body {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+p::first-line {
+    color: green;
+}
+
+p:hover::first-line {
+    color: rgb(218, 165, 51);
+}
+
+p:nth-child(odd) {
+    font-size: 10px;
+}
+
+p:nth-child(odd)::first-letter {
+    font-size: 20px;
+}
+
+
+h3::first-letter {
+    color: #a020f0;
+    font-size: 30px;
+}
+
+.first__li::first-letter {
+    color: #00bfff;
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+
+.second__li::first-letter {
+    color: #32cd32;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.three__li::first-letter {
+    color: #c71585;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.three__li {
+    text-decoration: line-through;
+}
+
+li {
+    font-weight: bold;
+}
+
+p:nth-child(1) {
+    font-size: 12px;
+    color:  #080808;
+}

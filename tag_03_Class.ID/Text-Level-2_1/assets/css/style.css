@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    background-color: gray;
+    text-shadow: 2px 3px 4px rgb(10, 11, 14);
+}
+
+.paragraph__one {
+    text-indent: 2%;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph__second {
+    word-spacing: 0px;
+    text-indent: 2%;
+}
+
+h2 {
+    letter-spacing: 20px;
+    text-shadow: 2px 3px 4px rgb(10, 11, 14);
+}
+
+.paragraph__three {
+    background-color: gray;
+    line-height: 5;
+}
+
+.paragraph__four {
+    background-color: rgb(1, 1, 1);
+    color: white;
+    line-height: 5;
+}

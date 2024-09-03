@@ -1,0 +1,12 @@
+article {
+    display: inline-block;
+    border: 1px solid #665F55;
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    width: 1120px;
+    box-sizing: border-box;
+}

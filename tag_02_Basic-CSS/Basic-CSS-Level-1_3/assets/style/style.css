@@ -1,0 +1,26 @@
+a {
+    color: orange;
+}
+
+header {
+    background-color: lightskyblue;
+}
+
+.img__code {
+    width: 400px;
+    height: 400px;
+}
+
+.img__geld {
+    width: 600px;
+    height: 600px;
+}
+
+.img__gym {
+    width: 800px;
+    height: 800px;
+}
+
+span {
+    color: red;
+}

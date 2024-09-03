@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.backgrounds {
+    display: flex; 
+    justify-content: center; 
+    align-items:center
+}
+
+.divs {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.background-color {
+    background-color: yellow;
+}
+
+.background-image {
+    background-image:  url("./dunkler-polygonaler-hintergrund-mit-goldenen-linien_52683-16873.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    background: linear-gradient(13deg, rgba(6,5,18,1) 0%, rgba(218,183,67,1) 80%, rgba(17,26,46,1) 100%);
+}
