@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Poppins-Regular;
+    color: #1d1a1a;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: url(../img/v2osk-1Z2niiBPg5A-unsplash.jpg) center / cover no-repeat
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+}
