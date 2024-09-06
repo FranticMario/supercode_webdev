@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #1D2025;
+    color: #6F6864;
+
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+        
+    text-decoration: none;
+    color: #6F6864;
+}
+
+a:hover {
+    color: rgba(241, 241, 241, 0.88);
+
+
+}
+
+.wrapper {
+    padding: 0 72px;
+    width: 1440px;
+}
+
+.logo__img {
+    font-family: Monoton;
+    font-size: 36px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #727577;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: space-between; /* Центрирует по горизонтали */
+    align-items: center; /* Центрирует по вертикали */
+    height: 95vh;
+    width: 100%;
+}
+
+.main__img {
+    width: 250px;
+    height: 600px;
+}
+
+.main__img-content {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    right: 0px;
+}
+
+.media {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn__switch {
+    border-radius: 20px;
+    border: 2px solid #B0805D;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 12.5px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.swap {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.main__title {
+    margin-bottom: 80px;
+}
+.main__subtitle {
+    color: #B0805D;
+}
+
+
