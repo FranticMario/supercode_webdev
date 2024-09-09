@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.content {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+    gap: 1px;
+}
+
+
+.header {
+    background-color: blue;
+    grid-area: header;
+    
+}
+
+.main {
+    background-color: green;
+    grid-area: main;
+}
+.aside {
+    background-color: red;
+    grid-area: sidebar;
+}
+
+.footer {
+    background-color:blueviolet;
+    grid-area: footer;
+}
