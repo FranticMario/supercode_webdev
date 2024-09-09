@@ -3,3 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 25px
+
+}
+
+.main {
+    display: flex;
+}
+
+.uberschrift {
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid #333;
+    border-bottom: 5px solid #333;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1185px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-areas: 
+    "title title title"
+    "news news img"
+    "news news img"
+    "news news img"
+    ; */
+}
+
+/* .info__title {
+    text-align: center;
+    grid-column: 1/6
+} */
+
+/* .news__wrapper {
+    grid-column: 2 / 4;
+    grid-row: 2/4 ;
+} */
+
+.img__wrapper {
+    grid-column: 2/6;
+}
+
+.news__img {
+    width: 300px;
+}
+
+.info__containter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px
+}
+
+.content__container {
+    border: 2px solid black;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    /* width: 216.997px; */
+    padding: 20px;
+}
+
+.img__ikea {
+    width: 100%;
+}
